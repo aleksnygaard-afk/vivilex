@@ -77,12 +77,51 @@ a{color:#1f2a37}a:hover{color:#8a6d1f}
 .vx-field:focus{border-color:#b8973a}
 .vx-lbl{display:block;font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:#8a6d1f;font-weight:600;margin-bottom:8px}
 @media (max-width:600px){.vx-sec{padding:64px 20px !important}.vx-h1{font-size:44px !important}}
+
+.art-lbl,.a-lbl{font-size:12px;letter-spacing:.35em;text-transform:uppercase;color:#8a6d1f;font-weight:600;margin:0 0 24px}
+.art-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.art-card{display:flex;flex-direction:column;gap:12px;text-decoration:none;background:#fff;padding:32px;border-top:3px solid #b8973a;box-shadow:0 2px 10px rgba(13,27,46,.08);transition:transform .2s,box-shadow .2s}
+.art-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(13,27,46,.12)}
+.art-cat{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#8a6d1f;font-weight:600}
+.art-t{font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.25;color:#0d1b2e;font-weight:500}
+.art-d{font-size:15px;line-height:1.75;color:#4a5568;flex:1}
+.art-more{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:#8a6d1f;font-weight:600}
+.a-hero{background:radial-gradient(ellipse 70% 80% at 85% 0%,rgba(184,151,58,.18) 0%,transparent 65%),linear-gradient(180deg,#0d1b2e 0%,#112240 100%);color:#f5f0e8;padding:72px 32px 88px}
+.a-in{max-width:1100px;margin:0 auto}
+.a-crumb{font-size:13px;letter-spacing:.06em;color:#c9d2e0;margin-bottom:40px}
+.a-crumb a{color:#d4af5a;text-decoration:none}.a-crumb .cur{color:#fff}
+.a-hero .a-lbl{color:#d4af5a;margin-bottom:16px}
+.a-hero h1{font-family:'Cormorant Garamond',serif;font-size:56px;font-weight:400;line-height:1.12;color:#fff;max-width:900px;margin:0 0 20px}
+.a-intro{font-size:18px;line-height:1.9;color:#c9d2e0;max-width:720px;margin:0}
+.a-meta{font-size:14px;color:#c9d2e0;margin:0;letter-spacing:.02em}
+.a-list{background:#f7f4ee;padding:88px 32px}
+.a-list>*{max-width:1100px;margin-left:auto;margin-right:auto}
+.a-list.more{padding-top:72px}
+.a-
+.prose{font-size:18px;line-height:1.9;color:#2b3645}
+.prose p{margin:0 0 22px}
+.prose h2{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:500;line-height:1.2;color:#0d1b2e;margin:44px 0 16px}
+.prose ul,.prose ol{margin:0 0 24px;padding-left:24px}
+.prose li{margin-bottom:10px;padding-left:4px}
+.prose li::marker{color:#9a7b2c;font-weight:600}
+.prose strong{color:#0d1b2e;font-weight:600}
+.prose a{color:#8a6d1f;text-decoration:underline;text-underline-offset:3px}
+.prose a:hover{color:#0d1b2e}
+.prose>p:first-child{font-size:20px;color:#1f2a37}
+.a-note{margin-top:40px;border-left:3px solid #b8973a;background:#f7f4ee;padding:20px 24px;font-size:15px;line-height:1.7;color:#4a5568}
+.a-rel{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:28px}
+.a-rel a{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#8a6d1f;font-weight:600;text-decoration:none}
+.a-cta{background:linear-gradient(135deg,#c9a548 0%,#b8973a 55%,#a6852f 100%);padding:80px 32px;text-align:center}
+.a-cta h2{font-family:'Cormorant Garamond',serif;font-size:42px;font-weight:500;color:#0d1b2e;margin:0 0 12px;line-height:1.2}
+.a-cta p{font-size:17px;color:#0d1b2e;margin:0 0 28px}
+.a-cta a{display:inline-block;padding:16px 40px;background:#0d1b2e;color:#f5f0e8;text-decoration:none;font-size:13px;letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+@media (max-width:600px){.a-hero{padding:56px 20px 64px}.a-hero h1{font-size:38px}.a-list{padding:64px 20px}.a-.prose{font-size:17px}.prose h2{font-size:28px}.a-cta h2{font-size:32px}}
 </style>
 </head>
 <body>
 <div class="vx" style="font-family: 'Montserrat', sans-serif; background: #0d1b2e; color: #f5f0e8; width: 100%">
 
-<header class="hdr"><div class="hdr-in"><a class="hdr-logo" href="/"><img src="/img/logo.jpg" alt="Vivilex Attorneys at Law, ke beranda" width="88" height="88"></a><nav class="hdr-nav" id="hdr-nav" aria-label="Navigasi utama"><a href="/">Beranda</a><a href="/#layanan">Bidang Praktik</a><a href="/klien-asing/">Klien Asing</a><a href="/tim/">Tim Kami</a><a href="/kontak/" class="on" aria-current="page">Kontak</a></nav><div class="hdr-right"><div class="lang" role="group" aria-label="Pilih bahasa"><a href="/kontak/" hreflang="id" lang="id" data-lang="id" class="on" aria-current="true">ID</a><a href="/en/contact/" hreflang="en" lang="en" data-lang="en">EN</a><a href="/no/kontakt/" hreflang="nb" lang="nb" data-lang="no">NO</a></div><a class="hdr-cta" href="/kontak/">Konsultasi</a><button type="button" class="menu-btn" aria-expanded="false" aria-controls="hdr-nav" aria-label="Menu"><span></span><span></span><span></span></button></div></div></header>
+<header class="hdr"><div class="hdr-in"><a class="hdr-logo" href="/"><img src="/img/logo.jpg" alt="Vivilex Attorneys at Law, ke beranda" width="88" height="88"></a><nav class="hdr-nav" id="hdr-nav" aria-label="Navigasi utama"><a href="/">Beranda</a><a href="/#layanan">Bidang Praktik</a><a href="/klien-asing/">Klien Asing</a><a href="/tim/">Tim Kami</a><a href="/artikel/">Artikel</a><a href="/kontak/" class="on" aria-current="page">Kontak</a></nav><div class="hdr-right"><div class="lang" role="group" aria-label="Pilih bahasa"><a href="/kontak/" hreflang="id" lang="id" data-lang="id" class="on" aria-current="true">ID</a><a href="/en/contact/" hreflang="en" lang="en" data-lang="en">EN</a><a href="/no/kontakt/" hreflang="nb" lang="nb" data-lang="no">NO</a></div><a class="hdr-cta" href="/kontak/">Konsultasi</a><button type="button" class="menu-btn" aria-expanded="false" aria-controls="hdr-nav" aria-label="Menu"><span></span><span></span><span></span></button></div></div></header>
 
 <section class="vx-sec" style="padding: 72px 32px 96px; background: radial-gradient(ellipse 70% 80% at 85% 0%, rgba(184,151,58,0.18) 0%, transparent 65%), linear-gradient(180deg, #0d1b2e 0%, #112240 100%); color: #f5f0e8">
 <div style="max-width: 1100px; margin: 0 auto">
@@ -174,6 +213,7 @@ a{color:#1f2a37}a:hover{color:#8a6d1f}
 <a href="/" style="color: #f5f0e8; text-decoration: none">Beranda</a>
 <a href="/klien-asing/" style="color: #f5f0e8; text-decoration: none">Klien Asing</a>
 <a href="/tim/" style="color: #f5f0e8; text-decoration: none">Tim Kami</a>
+<a href="/artikel/" style="color: #f5f0e8; text-decoration: none">Artikel</a>
 <a href="/kontak/" style="color: #f5f0e8; text-decoration: none">Kontak</a>
 </div>
 </nav>
